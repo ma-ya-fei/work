@@ -1,0 +1,47 @@
+/* 全站重置样式 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 14px;
+    color: black;
+
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+input {
+    outline:medium;
+}
+ 
+
+ /*清除浮动*/
+
+ .clearfix{
+    zoom: 1;
+  }
+ .clearfix:after{
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
+   visibility: hidden;
+ }
+
+  
